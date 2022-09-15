@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coordinates Geometry</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <div>
+
+            <div id="A" class="inputs">
+                <label for="#Ax">A (</label>
+                <input type="text" placeholder="x" name="Ax" id="Ax" class="coordinates">,
+                <input type="text" placeholder="y" name="Ay" id="Ay" class="coordinates"> )
+            </div>
+
+            <div id="B" class="inputs" >
+                <label for="#Bx">B (</label>
+                <input type="text" placeholder="x" name="Bx" id="Bx" class="coordinates">,
+                <input type="text" placeholder="y"  name="By" id="By" class="coordinates"> )
+            </div>
+            <div id="C" class = "inputs">
+                <label for="#Cx">C (</label>
+                <input type="text" placeholder="x" name="Cx" id="Cx" class="coordinates">,
+                <input type="text" placeholder="y"  name="Cy" id="Cy" class="coordinates"> )
+            </div>
+        </div>
+
+        <div class="answer">
+            <input type="button" value="Calculate" name="calculate" id="Calculate-button" >
+            <select name="" id="selector">
+                <option value="Distance" id="Distance" selected>Distance</option>
+                <option value="Midpoint" id="Midpoint">Midpoint</option>
+                <option value="Rise" id="Rise">Rise</option>
+                <option value="Run" id="Run">Run</option>
+                <option value="Gradient" id="Gradient">Gradeint(or)slope</option>
+                <option value="Triangle" id="Triangle">Triangle</option>
+            </select>
+        </div>
+    </form>
+    <p></p>
+    <script src="index.js"></script>
+</body>
+</html>
